@@ -1,0 +1,397 @@
+{
+  "users": [
+    {
+      "id": "1",
+      "name": "John Doe",
+      "age": 28,
+      "gender": "male",
+      "interests": [
+        "fashion",
+        "travel"
+      ],
+      "availability": "Weekdays after 6 PM",
+      "contactInformation": {
+        "email": "john.doe@example.com",
+        "phone": "123-456-7890"
+      },
+      "prices": {
+        "survey": 20,
+        "focusgroup": 40,
+        "interview": 100
+      },
+      "description": "I'm passionate about fashion trends and love to explore new places.",
+      "location": "New York, NY"
+    },
+    {
+      "id": "2",
+      "name": "Alice Johnson",
+      "age": 30,
+      "gender": "female",
+      "interests": [
+        "fashion",
+        "technology"
+      ],
+      "availability": "Flexible schedule",
+      "contactInformation": {
+        "email": "alice.j@example.com",
+        "phone": "987-654-3210"
+      },
+      "prices": {
+        "survey": 10,
+        "focusgroup": 20,
+        "interview": 50
+      },
+      "description": "Tech enthusiast with a keen interest in the fashion industry.",
+      "location": "San Francisco, CA"
+    },
+    {
+      "id": "3",
+      "name": "Jamie Lannister",
+      "age": 32,
+      "gender": "Male",
+      "interests": [
+        "fighting",
+        "family"
+      ],
+      "availability": "Flexible schedule",
+      "contactInformation": {
+        "email": "jamie@lannister.com",
+        "phone": "215-321-1234"
+      },
+      "prices": {
+        "survey": 20,
+        "focusgroup": 40,
+        "interview": 100
+      },
+      "description": "Kingsguard who really likes his family, hanging out with friends, and generally just vibing out.",
+      "location": "Los Angeles, CA"
+    },
+    {
+      "id": "4",
+      "name": "Daenerys Targaryen",
+      "age": 25,
+      "gender": "female",
+      "interests": [
+        "dragons",
+        "conquering",
+        "freedom"
+      ],
+      "availability": "Weekdays and weekends",
+      "contactInformation": {
+        "email": "daenerys@example.com",
+        "phone": "555-1234-5678"
+      },
+      "prices": {
+        "survey": 30,
+        "focusgroup": 50,
+        "interview": 120
+      },
+      "description": "Mother of Dragons, breaker of chains, and a lover of justice.",
+      "location": "Dragonstone"
+    },
+    {
+      "id": "5",
+      "name": "Tyrion Lannister",
+      "age": 40,
+      "gender": "male",
+      "interests": [
+        "wit",
+        "wine",
+        "politics"
+      ],
+      "availability": "Evenings",
+      "contactInformation": {
+        "email": "tyrion@example.com",
+        "phone": "555-5678-1234"
+      },
+      "prices": {
+        "survey": 25,
+        "focusgroup": 45,
+        "interview": 90
+      },
+      "description": "The Imp, a master of politics and a connoisseur of fine wine.",
+      "location": "Casterly Rock"
+    },
+    {
+      "id": "6",
+      "name": "Sansa Stark",
+      "age": 28,
+      "gender": "female",
+      "interests": [
+        "leadership",
+        "winterfell",
+        "family"
+      ],
+      "availability": "Weekdays",
+      "contactInformation": {
+        "email": "sansa@example.com",
+        "phone": "555-8765-4321"
+      },
+      "prices": {
+        "survey": 20,
+        "focusgroup": 40,
+        "interview": 80
+      },
+      "description": "Lady of Winterfell, resilient and strategic in her decisions.",
+      "location": "Winterfell"
+    },
+    {
+      "id": "7",
+      "name": "Arya Stark",
+      "age": 25,
+      "gender": "female",
+      "interests": [
+        "swordfighting",
+        "vengeance",
+        "exploration"
+      ],
+      "availability": "Flexible",
+      "contactInformation": {
+        "email": "arya@example.com",
+        "phone": "555-4321-8765"
+      },
+      "prices": {
+        "survey": 25,
+        "focusgroup": 45,
+        "interview": 100
+      },
+      "description": "A faceless assassin seeking justice for her family.",
+      "location": "Braavos"
+    },
+    {
+      "id": "8",
+      "name": "Jon Snow",
+      "age": 30,
+      "gender": "male",
+      "interests": [
+        "honor",
+        "brotherhood",
+        "beyondthewall"
+      ],
+      "availability": "Weekends",
+      "contactInformation": {
+        "email": "jon@example.com",
+        "phone": "555-9876-5432"
+      },
+      "prices": {
+        "survey": 30,
+        "focusgroup": 50,
+        "interview": 120
+      },
+      "description": "The Lord Commander of the Night's Watch, and a trueborn Stark.",
+      "location": "Castle Black"
+    },
+    {
+      "id": "9",
+      "name": "Cersei Lannister",
+      "age": 35,
+      "gender": "female",
+      "interests": [
+        "power",
+        "strategy",
+        "familylegacy"
+      ],
+      "availability": "Evenings",
+      "contactInformation": {
+        "email": "cersei@example.com",
+        "phone": "555-5678-4321"
+      },
+      "prices": {
+        "survey": 40,
+        "focusgroup": 60,
+        "interview": 150
+      },
+      "description": "Queen of the Seven Kingdoms, cunning and ambitious.",
+      "location": "King's Landing"
+    }
+  ],
+  "projects": [
+    {
+      "id": "1",
+      "name": "Beta Testing for Innovative Travel App",
+      "projectType": "interview",
+      "status": "inactive",
+      "description": "Join us in testing the beta version of our groundbreaking travel app. Provide valuable feedback to shape the future of travel technology.",
+      "participants": [
+        "3",
+        "1",
+        "2"
+      ]
+    },
+    {
+      "id": "2",
+      "name": "User Experience Survey: Next-Gen Wearables",
+      "projectType": "focusgroup",
+      "status": "inactive",
+      "description": "Participate in a focus group to share your preferences and insights on the next generation of wearable devices. Help us enhance the user experience of future wearables.",
+      "participants": [
+        "2",
+        "1"
+      ]
+    },
+    {
+      "id": "3",
+      "name": "Product Feedback and Improvement Interviews",
+      "description": "We are seeking feedback on our latest product features. Participate in one-on-one interviews to provide detailed insights. We need 8 interviews to gather diverse perspectives.",
+      "projectType": "interview",
+      "status": "inactive",
+      "participants": [
+        "2",
+        "1",
+        "3"
+      ]
+    },
+    {
+      "id": "4",
+      "name": "Consumer Preferences Survey: Tech Trends 2024",
+      "description": "Take part in our survey focused on understanding consumer preferences and expectations regarding upcoming tech trends in 2024. Your input will shape the future of technology.",
+      "projectType": "survey",
+      "status": "active",
+      "participants": [
+        "1",
+        "9"
+      ]
+    },
+    {
+      "id": "5",
+      "name": "Internal Review: VMS Mobile App Usability",
+      "description": "Contribute to our internal review of the VMS mobile app. Participate in a usability test to ensure a seamless and user-friendly experience for our team members.",
+      "projectType": "survey",
+      "status": "inactive",
+      "participants": [
+        "1"
+      ]
+    },
+    {
+      "id": "6",
+      "name": "Focus Groups for Mobile Build v4.0",
+      "description": "Be a part of shaping the future of our mobile app! Join our focus group for Mobile Build v4.0 and provide insights that will drive the development of innovative features.",
+      "projectType": "focusgroup",
+      "status": "active",
+      "participants": [
+        "1",
+        "3"
+      ]
+    },
+    {
+      "id": "7",
+      "name": "Voice of the Customer: Smart Home Solutions",
+      "description": "Share your thoughts on smart home solutions in this comprehensive survey. Your feedback will guide the development of intelligent and connected living spaces.",
+      "projectType": "survey",
+      "status": "inactive",
+      "participants": [
+        "2",
+        "3",
+        "1"
+      ]
+    },
+    {
+      "id": "8",
+      "name": "AR/VR Gaming Experience Testing",
+      "description": "Experience the future of gaming! Participate in testing the latest AR/VR gaming technology. Your insights will help refine the gaming experience for enthusiasts worldwide.",
+      "projectType": "focusgroup",
+      "status": "active",
+      "participants": [
+        "4",
+        "5",
+        "6"
+      ]
+    },
+    {
+      "name": "Testing",
+      "description": "fsad",
+      "projectType": "focusgroup",
+      "status": "inactive",
+      "participants": [
+        "8"
+      ],
+      "id": "YLHU9qX"
+    }
+  ],
+  "comments": [
+    {
+      "userId": "1",
+      "name": "Alice Johnson",
+      "body": "John Doe is a fantastic participant! His insights into fashion trends and love for exploring new places provided valuable perspectives during our focus group. Would love to have him again!",
+      "timestamp": "2023-12-05T12:30:45.123Z",
+      "id": "G9kTjGz"
+    },
+    {
+      "userId": "2",
+      "name": "Bob Thompson",
+      "body": "Alice Johnson is truly remarkable! Her tech enthusiasm combined with her keen interest in the fashion industry made her an invaluable part of our usability test. Looking forward to working with her in the future.",
+      "timestamp": "2023-12-05T13:45:21.567Z",
+      "id": "R6zK1L8"
+    },
+    {
+      "userId": "3",
+      "name": "Charlie Davis",
+      "body": "Jamie Lannister is a charismatic participant! His openness about family and friends added a delightful vibe to our focus group. Would recommend Jamie for any research project!",
+      "timestamp": "2023-12-05T14:55:37.789Z",
+      "id": "ZxyM7PQ"
+    },
+    {
+      "userId": "4",
+      "name": "Diana Smith",
+      "body": "Daenerys Targaryen participated in our survey, bringing a fiery passion for justice. Her responses were as powerful as her dragons. A pleasure to have Daenerys as part of our research!",
+      "timestamp": "2023-12-05T16:10:59.234Z",
+      "id": "W4aX2Np"
+    },
+    {
+      "userId": "5",
+      "name": "Eli Simon",
+      "body": "Tyrion Lannister's feedback was as witty as expected! Even after a couple of glasses of wine, his insights into the app were surprisingly insightful. A humorous and valuable participant!",
+      "timestamp": "2023-12-05T17:20:15.678Z",
+      "id": "M3bU9Vo"
+    },
+    {
+      "userId": "6",
+      "name": "Francis Miller",
+      "body": "Sansa Stark brought strategic insights to our usability test. Her resilience and strategic decision-making skills were evident in her feedback. Would highly recommend Sansa for future projects!",
+      "timestamp": "2023-12-05T18:35:42.345Z",
+      "id": "P1oI5Nr"
+    },
+    {
+      "userId": "7",
+      "name": "Grace Turner",
+      "body": "Arya Stark is a unique participant! Despite being a faceless assassin, her feedback during the interview was right on target. A participant who adds an element of surprise to research.",
+      "timestamp": "2023-12-05T19:50:53.901Z",
+      "id": "D7sQ2Lf"
+    },
+    {
+      "userId": "8",
+      "name": "Hank Johnson",
+      "body": "Jon Snow's responses in our survey were as honorable as his commitment to the Night's Watch. Winter may be coming, but Jon's feedback has already arrived – and it's excellent!",
+      "timestamp": "2023-12-05T20:59:12.456Z",
+      "id": "R9uK2Fx"
+    },
+    {
+      "userId": "9",
+      "name": "Ivy Thompson",
+      "body": "Cersei Lannister, the Queen of the Seven Kingdoms, participated in our focus group. Her cunning and ambitious nature shone through in her opinions. A royal addition to our research!",
+      "timestamp": "2023-12-05T22:12:04.789Z",
+      "id": "H2wV8Sq"
+    },
+    {
+      "userId": "3",
+      "name": "Eli Simon",
+      "body": "Jamie Lannister might be the Kingslayer, but he was AWESOME focus group participant.",
+      "timestamp": "2023-12-05T02:21:12.065Z",
+      "id": "yRlbTCP"
+    },
+    {
+      "userId": "6",
+      "name": "Eli Simon",
+      "body": "Sansa was amazing. The winter is coming, free the north!",
+      "timestamp": "2023-12-05T03:06:38.579Z",
+      "id": "AuQlhVx"
+    },
+    {
+      "userId": "8",
+      "name": "Eli Simon",
+      "body": "Great job Jon!",
+      "timestamp": "2023-12-05T03:39:14.031Z",
+      "id": "qxc87ne"
+    }
+  ]
+}
