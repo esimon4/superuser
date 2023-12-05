@@ -28,7 +28,7 @@ export default function Index() {
         .filter((project) => project.status === 'active')
         .map((project) => (
           <Card
-            key={project.name}
+            key={project.id}
             title={project.name}
             text={project.description}
             link={`/project/${project.id}`}
